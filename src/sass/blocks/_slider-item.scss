@@ -1,0 +1,29 @@
+.slider-item {
+	position: relative;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+	&__content {
+		position: absolute;
+		right: 5rem;
+		bottom: 7.1875rem;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		text-transform: uppercase;
+	}
+
+	&__content-title {
+		margin: .625rem 0 2.8125rem 0;
+		font-size: 5rem;
+		font-weight: 800;
+	}
+
+	&__content-text {
+		margin: .9375rem 0 1.5625rem 0;
+		font-size: 2.5rem;
+		font-weight: 800;
+	}
+}

@@ -1,0 +1,11 @@
+.slider-arrows {
+	position: absolute;
+	top: 2.5rem;
+	right: 7.8125rem;
+	z-index: 9;
+	cursor: pointer;
+
+	&_next {
+		right: 5rem;
+	}
+}

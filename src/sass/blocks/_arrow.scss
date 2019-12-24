@@ -1,0 +1,8 @@
+.arrow {
+	max-width: 1.5rem;
+	max-height: 1.2rem;
+
+	&_left {
+		transform: rotate(-180deg);
+	}
+}

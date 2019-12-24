@@ -43,7 +43,7 @@ menu,
 nav,
 section,
 summary {
-  display: block;
+	display: block;
 }
 
 /**
@@ -55,8 +55,8 @@ audio,
 canvas,
 progress,
 video {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
+	display: inline-block; /* 1 */
+	vertical-align: baseline; /* 2 */
 }
 
 /**
@@ -107,7 +107,7 @@ a:hover {
  */
 
 abbr[title] {
-  border-bottom: 1px dotted;
+	border-bottom: 1px dotted;
 }
 
 /**
@@ -116,7 +116,7 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 /**
@@ -124,7 +124,7 @@ strong {
  */
 
 dfn {
-  font-style: italic;
+	font-style: italic;
 }
 
 /**
@@ -133,8 +133,8 @@ dfn {
  */
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+	font-size: 2em;
+	margin: 0.67em 0;
 }
 
 /**
@@ -142,8 +142,8 @@ h1 {
  */
 
 mark {
-  background: #ff0;
-  color: #000;
+	color: #000;
+	background: #ff0;
 }
 
 /**
@@ -151,7 +151,7 @@ mark {
  */
 
 small {
-  font-size: 80%;
+	font-size: 80%;
 }
 
 /**
@@ -160,18 +160,18 @@ small {
 
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+	position: relative;
+	font-size: 75%;
+	line-height: 0;
+	vertical-align: baseline;
 }
 
 sup {
-  top: -0.5em;
+	top: -0.5em;
 }
 
 sub {
-  bottom: -0.25em;
+	bottom: -0.25em;
 }
 
 /* Embedded content
@@ -182,7 +182,7 @@ sub {
  */
 
 img {
-  border: 0;
+	border: 0;
 }
 
 /**
@@ -190,7 +190,7 @@ img {
  */
 
 svg:not(:root) {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 /* Grouping content
@@ -201,7 +201,7 @@ svg:not(:root) {
  */
 
 figure {
-  margin: 1em 40px;
+	margin: 1em 40px;
 }
 
 /**
