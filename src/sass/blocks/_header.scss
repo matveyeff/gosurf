@@ -1,8 +1,24 @@
 .header {
+	position: relative;
 	height: 100vh;
 
 	&__slider {
 		height: 100%;
 		color: $white;
+	}
+
+	&__title {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 9;
+		max-width: 29.1875rem;
+		margin: 0;
+		font-size: 12.5rem;
+		font-weight: 800;
+		line-height: 9.75rem;
+		color: $white;
+		text-transform: uppercase;
+		opacity: .07;
 	}
 }
