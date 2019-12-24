@@ -47,3 +47,27 @@ header
 				.dots-box
 					.dots-box__number 04
 					.dots-box__name East Shore
+		aside
+			.aside
+				.logo: +icon('logo', 'logo__icon')
+				nav.nav
+					ul.nav__list
+						li.nav__item
+							a.nav__link(href="#") Surf
+								+icon('surf', 'nav__icon nav__icon_surf')
+						li.nav__item
+							a.nav__link(href="#") Travel
+								+icon('travel', 'nav__icon nav__icon_travel')
+						li.nav__item
+							a.nav__link(href="#") Sleep
+								+icon('camp', 'nav__icon nav__icon_sleep')
+						li.nav__item
+							a.nav__link(href="#") Shop
+								+icon('board', 'nav__icon nav__icon_shop')
+				.search
+					a.search__link(href="#"): +icon('search', 'search__icon')
+				.header__date
+					.header__date-day 20
+					span.header__date-my 06 | 2020
+				.header__location
+					a.header__location-link(href="#") California

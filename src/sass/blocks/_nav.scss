@@ -1,0 +1,59 @@
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__item {
+		margin-bottom: 1.42578125rem;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&__link {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		font-size: .75rem;
+		font-weight: 500;
+		color: $white;
+		letter-spacing: 3px;
+
+		&:hover {
+			color: $accent;
+		}
+	}
+
+	&__icon {
+		width: 100%;
+		height: 100%;
+		margin-bottom: .625rem;
+
+		&_surf {
+			width: 75px;
+			height: 46px;
+		}
+
+		&_travel {
+			width: 53px;
+			height: 32px;
+		}
+
+		&_sleep {
+			width: 48px;
+			height: 40px;
+		}
+
+		&_shop {
+			width: 24px;
+			height: 44px;
+		}
+	}
+}

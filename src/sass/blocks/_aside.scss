@@ -1,0 +1,12 @@
+.aside {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	padding-bottom: 2.8125rem;
+	border-right: 1px solid rgba($white, .25);
+}
