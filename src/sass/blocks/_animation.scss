@@ -1,0 +1,34 @@
+.animation {
+	&__line {
+		stroke-dasharray: 600;
+		stroke-dashoffset: 600;
+		animation: mapline 4s 3.5s;
+		animation-fill-mode: forwards;
+
+		@keyframes mapline {
+			to {
+				stroke-dashoffset: 0;
+			}
+		}
+	}
+
+	&__delay-1000ms {
+		animation-delay: 1s;
+	}
+
+	&__delay-1500ms {
+		animation-delay: 1.5s;
+	}
+
+	&__delay-2000ms {
+		animation-delay: 2s;
+	}
+
+	&__delay-2500ms {
+		animation-delay: 2.5s;
+	}
+
+	&__delay-3000ms {
+		animation-delay: 3s;
+	}
+}
