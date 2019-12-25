@@ -1,0 +1,14 @@
+.arrows-down {
+	position: absolute;
+	bottom: 1.5625rem;
+	left: 13.0625rem;
+
+	&__link {
+		display: block;
+	}
+
+	&__icon {
+		width: 20px;
+		height: 24px;
+	}
+}
