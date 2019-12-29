@@ -4,7 +4,6 @@
 
 	&__slider {
 		height: 100%;
-		color: $white;
 	}
 
 	&__title {
@@ -17,8 +16,6 @@
 		font-size: 12.5rem;
 		font-weight: 800;
 		line-height: 9.75rem;
-		color: $white;
-		text-transform: uppercase;
 		opacity: .07;
 	}
 
@@ -27,7 +24,6 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		color: $white;
 	}
 
 	&__date-day {
@@ -51,7 +47,7 @@
 		align-items: center;
 		font-size: .75rem;
 		font-weight: 300;
-		color: $white;
+		text-transform: initial;
 		letter-spacing: 1.05px;
 
 		&::before {

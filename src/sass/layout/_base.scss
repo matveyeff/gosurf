@@ -25,6 +25,9 @@ body {
 	margin: 0;
 	font-family: $text;
 	font-weight: 400;
+	color: $white;
+	text-transform: uppercase;
+	background-color: $background;
 }
 
 img,
@@ -43,6 +46,7 @@ p {
 }
 
 a {
+	color: $white;
 	text-decoration: none;
 	outline: none;
 }
@@ -68,26 +72,33 @@ h6 {
 }
 
 .container {
-	width: 100%;
-	max-width: 1200px;
-	padding: 0 .9375rem;
+	position: relative;
+	max-width: 1920px;
 	margin: 0 auto;
 }
 
-.subtitle {
-	display: flex;
-	align-items: center;
-	font-size: 1.375rem;
-	text-transform: uppercase;
-	letter-spacing: 7.33px;
-	opacity: .5;
+.title {
+	position: relative;
+	display: inline-block;
+	font-size: 5rem;
+	font-weight: 800;
 
-	&::before {
+	&::after {
+		position: absolute;
+		top: 0;
+		right: 0;
 		width: 5rem;
 		height: 1px;
-		margin-right: 1.25rem;
 		content: '';
-		background-color: $white;
-		opacity: .5;
+		background-color: $accent;
 	}
+}
+
+.subtitle {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 12.5rem;
+	font-weight: 800;
+	opacity: .02;
 }
