@@ -18,6 +18,7 @@
 	}
 }
 
+@include font('Fira Sans', normal, 200, '../fonts/FiraSans-Thin.woff2');
 @include font('Fira Sans', normal, 300, '../fonts/FiraSans-Light.woff2');
 @include font('Fira Sans', normal, 400, '../fonts/FiraSans-Regular.woff2');
 @include font('Fira Sans', normal, 500, '../fonts/FiraSans-Medium.woff2');
