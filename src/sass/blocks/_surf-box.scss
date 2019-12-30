@@ -3,10 +3,28 @@
 	background-position: center;
 	background-size: cover;
 
+	&__inner-btn {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		display: none;
+		text-align: center;
+	}
+
 	&__inner {
 		position: relative;
 		min-height: 46.875rem;
 		background-color: rgba(#1c2121, .85);
+		transition: background-color $slow;
+
+		&:hover {
+			background-color: rgba(#1c2121, .3);
+
+			.surf-box__inner-btn {
+				display: block;
+			}
+		}
 	}
 
 	&__inner-title {
@@ -31,13 +49,5 @@
 		span {
 			font-weight: 100;
 		}
-	}
-
-	&__inner-btn {
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		text-align: center;
 	}
 }
