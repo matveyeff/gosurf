@@ -77,6 +77,10 @@ h6 {
 	margin: 0 auto;
 }
 
+.section {
+	padding: 10rem 0 7.5rem;
+}
+
 .title {
 	position: relative;
 	display: inline-block;
@@ -110,6 +114,21 @@ h6 {
 		content: '';
 		background-color: $white;
 		opacity: .5;
+	}
+
+	&_left {
+		&::after {
+			width: 5rem;
+			height: 1px;
+			margin-left: 1.5625rem;
+			content: '';
+			background-color: $white;
+			opacity: .5;
+		}
+
+		&::before {
+			display: none;
+		}
 	}
 
 	&__text {

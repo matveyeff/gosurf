@@ -3,15 +3,32 @@
 	opacity: .95;
 
 	&__content {
+		position: absolute;
+		bottom: 2.1875rem;
 		display: none;
+		background-color: rgba(#0f1010, .7);
+		border-radius: 0.375rem;
+		transform: translateX(-50%);
+
+		&::before {
+			position: absolute;
+			bottom: -21px;
+			left: 50%;
+			width: 0;
+			height: 0;
+			content: '';
+			border-right: 12px solid transparent;
+			border-bottom: 20px solid $accent;
+			border-left: 12px solid transparent;
+		}
 	}
 
 	&__circle {
-		width: 1.5rem;
-		height: 1.5rem;
+		width: 1.4375rem;
+		height: 1.4375rem;
 		background-color: $accent;
 		border-radius: 50%;
-		box-shadow: 0 0 35px 0 rgba($accent, .83);
+		box-shadow: 0 0 2.1875rem 0 rgba($accent, .83);
 	}
 
 	&__content-row {
@@ -22,6 +39,23 @@
 		&:last-child {
 			margin-bottom: 0;
 		}
+	}
+
+	&__content-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__content-number {
+		font-size: 1rem;
+		font-weight: 800;
+		line-height: 1.5rem;
+	}
+
+	&__content-name {
+		font-size: .625rem;
+		font-weight: 300;
 	}
 
 	&__content-title {
@@ -37,7 +71,7 @@
 			bottom: 0;
 			left: 0;
 			width: 5rem;
-			height: 1px;
+			height: .0625rem;
 			content: '';
 			background-color: $accent;
 		}
@@ -50,13 +84,37 @@
 	}
 
 	&__content-icon {
-		max-width: 40px;
-		max-height: 24px;
+		max-width: 2.5rem;
+		max-height: 1.5rem;
+		margin-bottom: .5rem;
+
+		&_wave {
+			max-width: 2.5rem;
+			max-height: 1.5rem;
+		}
+
+		&_water {
+			max-width: 1.1875rem;
+			max-height: 1.5rem;
+		}
+
+		&_wind {
+			max-width: 1.625rem;
+			max-height: 1.5rem;
+		}
 	}
 
 	&_1 {
 		top: 20.9375rem;
 		left: 3.125rem;
+
+		.slider-dots__content {
+			transform: translateX(0);
+
+			&::before {
+				left: 0;
+			}
+		}
 	}
 
 	&_2 {
@@ -68,10 +126,10 @@
 
 			&::before {
 				position: absolute;
-				top: -20px;
-				right: -15px;
-				width: 14px;
-				height: 17px;
+				top: -1.25rem;
+				right: -.9375rem;
+				width: .875rem;
+				height: 1.0625rem;
 				content: '';
 				background-image: url('../img/marker-small.svg');
 			}
@@ -84,27 +142,36 @@
 	}
 
 	&_4 {
-		top: 498px;
-		left: -38px;
+		top: 31.125rem;
+		left: -2.375rem;
 	}
 
 	&_5 {
-		top: 210px;
-		left: -70px;
+		top: 13.125rem;
+		left: -4.375rem;
 	}
 
 	&_6 {
-		top: 550px;
-		left: -110px;
+		top: 34.375rem;
+		left: -6.875rem;
 	}
 
 	&_7 {
-		top: 393px;
-		left: -100px;
+		top: 24.5625rem;
+		left: -6.25rem;
 	}
 
 	&_8 {
-		top: 490px;
-		left: 33px;
+		top: 30.625rem;
+		left: 2.0625rem;
+
+		.slider-dots__content {
+			transform: translateX(-16.375rem);
+
+			&::before {
+				right: 0;
+				left: auto;
+			}
+		}
 	}
 }
