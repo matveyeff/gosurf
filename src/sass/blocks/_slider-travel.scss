@@ -2,4 +2,45 @@
 	&__head {
 		min-height: 48.75rem;
 	}
+
+	&__btn {
+		text-align: center;
+	}
+
+	&__info {
+		display: flex;
+		justify-content: space-around;
+		min-height: 17.5rem;
+		margin-top: 1.875rem;
+	}
+
+	&__info-item {
+		position: relative;
+	}
+
+	&__info-title {
+		padding-left: 2.5rem;
+		font-size: 2.5rem;
+		font-weight: 800;
+
+		span {
+			display: block;
+			font-size: 0.875rem;
+			font-weight: 400;
+			text-align: right;
+			letter-spacing: 5.25px;
+			opacity: .75;
+		}
+	}
+
+	&__info-subtitle {
+		position: absolute;
+		font-size: 18px;
+		line-height: 22px;
+		letter-spacing: 8px;
+		white-space: nowrap;
+		opacity: 0.5;
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+	}
 }
