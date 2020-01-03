@@ -32,7 +32,7 @@ $(document).ready(function(){
 		focusOnSelect: true,
 	});
 
-	$('.slider-travel').slick({
+	$('.slider-holder').slick({
 		infinite: true,
 		fade: true,
 		cssEase: 'linear',
