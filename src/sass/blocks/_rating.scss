@@ -1,0 +1,13 @@
+.rating {
+	&__list {
+		display: flex;
+	}
+
+	&__item {
+		margin-right: .625rem;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

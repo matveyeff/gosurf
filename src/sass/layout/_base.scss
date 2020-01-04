@@ -133,6 +133,7 @@ h6 {
 
 	&__text {
 		display: flex;
+		align-items: center;
 		font-size: 2.5rem;
 		font-weight: 800;
 
@@ -175,4 +176,9 @@ h6 {
 			transform: translateY(-50%);
 		}
 	}
+}
+
+.virgin {
+	max-width: 3.25rem;
+	max-height: 2.875rem;
 }

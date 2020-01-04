@@ -1,6 +1,10 @@
 .holder {
 	padding-bottom: 10rem;
 
+	&__img {
+		margin-left: 1.625rem;
+	}
+
 	.slider-arrows {
 		top: 6.875rem;
 		opacity: .25;
