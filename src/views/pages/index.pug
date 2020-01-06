@@ -487,7 +487,10 @@ block content
 							.slider-holder__info-title Auberge#[br]Australia
 						.slider-holder__info-item
 							.slider-holder__info-subtitle # of Nights
-							.slider-holder__info-title 5 Nights
+							.slider-holder__info-title
+								.quantity
+									input(type="number" min="1" max="9" step="1" value="5")
+								| Nights
 						.slider-holder__info-item
 							.slider-holder__info-subtitle # of Guests
 							.slider-holder__info-title 4 Guests
