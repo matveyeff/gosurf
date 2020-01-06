@@ -8,5 +8,10 @@
 	.slider-arrows {
 		top: 6.875rem;
 		opacity: .25;
+		transition: opacity $slow;
+
+		&:hover {
+			opacity: 1;
+		}
 	}
 }
